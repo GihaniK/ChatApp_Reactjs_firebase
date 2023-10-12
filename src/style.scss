@@ -207,6 +207,52 @@
                     cursor: pointer;
                 }
             }
+
+            .messages{
+                padding: 10px;
+                background-color: #ddddf7;
+                height: calc(100% - 160px);
+            }
+
+            .input{
+                height: 50px;
+                background-color: white;
+                padding: 10px;
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+
+                input{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    color: #2f2d52;
+                    font-size: 18px;
+
+                    &::placeholder{
+                        color: lightgray;
+                    }
+                }
+
+                .send{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img{
+                        cursor: pointer;
+                        height: 24px;
+                    }
+
+                    button{
+                        border: none;
+                        background-color: #8da4f1;
+                        padding: 10px 15px;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
         }
     }
 }
